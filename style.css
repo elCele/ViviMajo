@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+html { 
+    background: linear-gradient(#dc143c, #191970) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headingBox {
+    text-align: center;
+    clear: both;
+}
+
+#title, #description {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#title {
+    font-size: 100px;
+}
+
+.tableInfo {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+}
+
+#tableInfo1 {
+    margin-top: 40px;
+}
+
+.buttonToForm {
+    margin: 10px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.buttonToForm:hover {
+    transform: scale(1.023);
+}
+
+.buttonToForm:active {
+    transform: scale(0.8);
+}
+
+.day {
+    font-size: 30px;
+}
+
+.hour {
+    font-size: 16px;
+}
+
+#navBox {
+    display: flex;
+    float: right;
+}
+
+.navBoxText {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.divNav {
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.divNav:hover {
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+}
