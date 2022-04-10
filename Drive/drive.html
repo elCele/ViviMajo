@@ -34,15 +34,14 @@
         </div>
     </div>
 
-    <iframe src="https://drive.google.com/embeddedfolderview?id=1AtN69euuVdNp358B4ijH4ccFaNjCjOmG#grid" frameborder="0" id="driveFolder" onload="iframeLoaded()"></iframe>
+    <iframe src="https://drive.google.com/embeddedfolderview?id=1AtN69euuVdNp358B4ijH4ccFaNjCjOmG#grid" frameborder="0" id="driveFolder"></iframe>
 
     <script>
-        function iframeLoaded() {
-            var iFrameID = document.getElementById('driveFolder');
-            if(iFrameID) {
-                iFrameID.height = "";
-                iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
-            }   
+        var frame = document.getElementById("driveFolder");
+          
+        frame.onload = function() {
+            frame.style.height = frame.contentWindow.document.body.scrollHeight + 'px';
+            frame.style.width = frame.contentWindow.document.body.scrollWidth+'px';
         }
     </script>
 </body>
