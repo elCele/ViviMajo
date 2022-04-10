@@ -1,6 +1,6 @@
-* {
+/** {
     box-sizing: border-box;
-}
+}*/
 
 html { 
     background: linear-gradient(#191970, #c20d0d) no-repeat center center fixed; 
