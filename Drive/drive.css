@@ -35,4 +35,5 @@ html {
 #driveFolder {
     display: flex;
     width: 96vw;
+    height: 96vh;
 }
