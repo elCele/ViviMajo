@@ -37,5 +37,10 @@ html {
     width: 96vw;
     height: 80vh;
     text-align: center;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-radius: 25px;
 }
