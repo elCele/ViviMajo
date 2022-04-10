@@ -1,6 +1,6 @@
-/** {
+* {
     box-sizing: border-box;
-}*/
+}
 
 html { 
     background: linear-gradient(#191970, #c20d0d) no-repeat center center fixed; 
@@ -30,8 +30,4 @@ html {
 
 .divNav:hover {
     box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-}
-
-#driveFolder {
-    width: 100vw;
 }
