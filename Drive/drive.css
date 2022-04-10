@@ -33,5 +33,6 @@ html {
 }
 
 #driveFolder {
-    display: inline-block;
+    display: flex;
+    width: 96vw;
 }
