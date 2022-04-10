@@ -34,12 +34,6 @@
         </div>
     </div>
 
-    <iframe src="https://drive.google.com/embeddedfolderview?id=1AtN69euuVdNp358B4ijH4ccFaNjCjOmG#grid" frameborder="0" id="driveFolder" onload="resize(this)"></iframe>
-
-    <script>
-        function resizeIframe(iframe) {
-            iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
-        }
-    </script>
+    <iframe src="https://drive.google.com/embeddedfolderview?id=1AtN69euuVdNp358B4ijH4ccFaNjCjOmG#grid" frameborder="0" id="driveFolder" onload="this.height=this.contentWindow.document.body.scrollHeight;"></iframe>
 </body>
 </html>
