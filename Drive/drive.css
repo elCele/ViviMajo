@@ -40,7 +40,7 @@ html {
     background-color: rgba(255,255,255,0.25);
     color: white;
     left: 50%;
-    top: 100%;
+    top: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
     border-radius: 25px;
