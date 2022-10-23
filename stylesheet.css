@@ -98,7 +98,7 @@ body {
 #title {
     position: absolute;
     display: flex;
-    top: 36%;
+    top: 39%;
     left: 15%;
     width: 70%;
 
@@ -115,14 +115,14 @@ body {
     border: 10px solid #ffffff;
     border-radius: 25px;
 
-    top: 62%;
+    top: 66%;
     left: 15%;
     width: 67%;
 }
 
 #subtitle {
     position: absolute;
-    top: 65%;
+    top: 69%;
     left: 10%;
     width: 80%;
 
