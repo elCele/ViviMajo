@@ -98,7 +98,7 @@ body {
 #title {
     position: absolute;
     display: flex;
-    top: 39%;
+    top: 35%;
     left: 15%;
     width: 70%;
 
@@ -107,7 +107,7 @@ body {
     text-align: center;
     align-items: center;
     font-size: 6em;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 #line4 {
