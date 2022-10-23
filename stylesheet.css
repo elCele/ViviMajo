@@ -126,7 +126,7 @@ body {
     left: 10%;
     width: 80%;
 
-    font-family: 'made_gentleregular';
+    font-family: 'made_gentleregular, Arial, sans-serif;';
     font-weight: 500;
     font-size: 3em;
     display: flex;
