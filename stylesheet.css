@@ -1,0 +1,137 @@
+body {
+    background-color: #30B18D;
+}
+
+.block {
+    display: block;
+}
+
+#menuButton {
+    position: absolute;
+
+    background: rgba(14, 54, 42, 0.4);
+    border-radius: 15px;
+
+    top: 2.5vh;
+    left: 2.5vh;
+
+    width: 5vh;
+    height: 5vh;
+}
+
+#line1 {
+    box-sizing: border-box;
+
+
+    mix-blend-mode: soft-light;
+    background-color:#000000;
+    border-radius: 25px;
+
+    height: 10%;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#line2 {
+    box-sizing: border-box;
+
+
+    mix-blend-mode: soft-light;
+    background-color: #000000;
+    border-radius: 25px;
+
+    height: 10%;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#line3 {
+    box-sizing: border-box;
+
+
+    mix-blend-mode: soft-light;
+    background-color:#000000;
+    border-radius: 25px;
+
+    height: 10%;
+    margin-bottom: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#logo {
+    position: absolute;
+    left: 15%;
+    top: 18.25%;
+    width: 70%;
+}
+
+#greenBg {
+    position: absolute;
+
+    top: 40%;
+    bottom: 5%;
+    left: 10%;
+    width: 80%;
+    height: 55%;
+
+    background: rgba(14, 54, 42, 0.7);
+    border-radius: 50px;
+
+}
+
+#photo {
+    box-sizing: border-box;
+    position: absolute;
+
+    top: 3%;
+    left: 7%;
+    width: 86%;
+
+    border: 10px solid #30B18D;
+    border-radius: 25px;
+}
+
+#title {
+    position: absolute;
+    display: flex;
+    top: 34%;
+    left: 15%;
+    width: 70%;
+
+    font-family: 'made_gentleregular';
+    color: #30B18D;
+    text-align: center;
+    align-items: center;
+    font-size: 5em;
+    font-weight: 100e;
+}
+
+#line4 {
+    position: absolute;
+    border: 10px solid #30B18D;
+    border-radius: 25px;
+
+    top: 60%;
+    left: 15%;
+    width: 67%;
+}
+
+#subtitle {
+    position: absolute;
+    top: 63%;
+    left: 10%;
+    width: 80%;
+
+    font-family: 'made_gentleregular';
+    font-weight: 1;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #30B18D;
+}
