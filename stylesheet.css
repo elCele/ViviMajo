@@ -72,7 +72,7 @@ body {
 #greenBg {
     position: absolute;
 
-    top: 40%;
+    top: 30%;
     bottom: 5%;
     left: 10%;
     width: 80%;
@@ -91,7 +91,7 @@ body {
     left: 7%;
     width: 86%;
 
-    border: 10px solid #30B18D;
+    border: 10px solid #ffffff;
     border-radius: 25px;
 }
 
@@ -103,7 +103,7 @@ body {
     width: 70%;
 
     font-family: 'made_gentleregular';
-    color: #30B18D;
+    color: #ffffff;
     text-align: center;
     align-items: center;
     font-size: 5em;
@@ -112,7 +112,7 @@ body {
 
 #line4 {
     position: absolute;
-    border: 10px solid #30B18D;
+    border: 10px solid #ffffff;
     border-radius: 25px;
 
     top: 62%;
@@ -133,5 +133,5 @@ body {
     align-items: center;
     text-align: center;
 
-    color: #30B18D;
+    color: #ffffff;
 }
