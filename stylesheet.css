@@ -91,7 +91,7 @@ body {
     left: 7%;
     width: 86%;
 
-    border: 10px solid #ffffff;
+    border: 10px solid #30B18D;
     border-radius: 25px;
 }
 
@@ -103,7 +103,7 @@ body {
     width: 70%;
 
     font-family: 'made_gentleregular';
-    color: #ffffff;
+    color: #30B18D;
     text-align: center;
     align-items: center;
     font-size: 5em;
@@ -112,7 +112,7 @@ body {
 
 #line4 {
     position: absolute;
-    border: 10px solid #ffffff;
+    border: 10px solid #30B18D;
     border-radius: 25px;
 
     top: 66%;
@@ -133,5 +133,5 @@ body {
     align-items: center;
     text-align: center;
 
-    color: #ffffff;
+    color: #30B18D;
 }
